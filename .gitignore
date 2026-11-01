@@ -1,0 +1,44 @@
+# Datasets and experiment outputs
+/data/
+/weight/
+/checkpoints/
+/runs/
+/wandb/
+
+# Model checkpoints and pretrained weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+/build/
+/dist/
+.ipynb_checkpoints/
+
+# Local virtual environments
+/.venv/
+/venv/
+/env/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
